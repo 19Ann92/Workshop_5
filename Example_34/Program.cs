@@ -20,7 +20,9 @@ int[] FillingArray(int n)
 }
 
 int[] arr = FillingArray(num);
-Console.WriteLine(String.Join(", ", arr));
+Console.Write("[");
+Console.Write(String.Join(", ", arr));
+Console.WriteLine("]");
 
 int FindEvenNumbers(int[] array)
 {
